@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11429.125 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateIfLabs.AspNetCore.SignalR.Client", "CreateIfLabs.AspNetCore.SignalR.Client\CreateIfLabs.AspNetCore.SignalR.Client.csproj", "{854016C7-1A4D-4686-892C-BB297951C0C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateIfLabs.AutoMapper", "CreateIfLabs.AutoMapper\CreateIfLabs.AutoMapper.csproj", "{48C26770-9B49-4A85-8B18-EC9D50EC41EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateIfLabs.AutoMapper.Tests", "CreateIfLabs.AutoMapper.Tests\CreateIfLabs.AutoMapper.Tests.csproj", "{8024567D-FA16-46BB-B690-481C355D559F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{854016C7-1A4D-4686-892C-BB297951C0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854016C7-1A4D-4686-892C-BB297951C0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{854016C7-1A4D-4686-892C-BB297951C0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C26770-9B49-4A85-8B18-EC9D50EC41EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C26770-9B49-4A85-8B18-EC9D50EC41EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C26770-9B49-4A85-8B18-EC9D50EC41EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C26770-9B49-4A85-8B18-EC9D50EC41EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8024567D-FA16-46BB-B690-481C355D559F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8024567D-FA16-46BB-B690-481C355D559F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8024567D-FA16-46BB-B690-481C355D559F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8024567D-FA16-46BB-B690-481C355D559F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
